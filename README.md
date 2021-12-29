@@ -4,7 +4,8 @@ After watching most of [David Silver's lectures](https://www.youtube.com/watch?v
 ## VPG 
 [Vanilla policy gradient](https://spinningup.openai.com/en/latest/algorithms/vpg.html) uses a stochastic policy and learns in an on policy way (explores by sampling actions according to up to date policy). I followed the layout spinning up gave, but replacing advantage value simply with episode returns as done [here](https://www.notion.so/Vanilla-Policy-Gradients-b93451bb5507454c9d7de6a96ac629c1#a4aaed6159b5483e9d1e03f655e3fdce).
 
-https://user-images.githubusercontent.com/64811449/147689323-5d1c0808-e263-47c4-b62e-8ee9b72a1a23.mp4
+![PPO](https://user-images.githubusercontent.com/64811449/147691029-5bdfe734-53e2-43bd-80b4-b610798ed4df.gif)
+
 In this environment, the agent is rewarded for balancing the pole on the cart. The choice of action is discrete and can be either move left or right.
 
 ## PPO (Clip)
