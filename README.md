@@ -2,7 +2,7 @@
 After watching most of [David Silver's lectures](https://www.youtube.com/watch?v=2pWv7GOvuf0) on reinforcement learning and reading through [OpenAI's Spinning Up](https://spinningup.openai.com/en/latest/user/introduction.html), I decided to begin attempting to implement some of the fundamental reinforcement learning algorithms in PyTorch.
 
 ## VPG 
-[Vanilla policy gradient](https://spinningup.openai.com/en/latest/algorithms/vpg.html) uses a stochastic policy and learns in an on policy way (explores by sampling actions according to up to date policy). I followed the layout spinning up gave, but replacing advantage value simply with episode returns as done [here](https://www.notion.so/Vanilla-Policy-Gradients-b93451bb5507454c9d7de6a96ac629c1#a4aaed6159b5483e9d1e03f655e3fdce).
+[Vanilla policy gradient](https://spinningup.openai.com/en/latest/algorithms/vpg.html) uses a stochastic policy (choose action based on probability distribution) and learns in an on policy way (explores by sampling actions according to up to date policy). I followed the layout spinning up gave, but replacing advantage value simply with episode returns as done [here](https://www.notion.so/Vanilla-Policy-Gradients-b93451bb5507454c9d7de6a96ac629c1#a4aaed6159b5483e9d1e03f655e3fdce).
 
 ![VPG](https://user-images.githubusercontent.com/64811449/147691086-65b32cc2-7db8-4c16-aa84-e58e1ed1569b.gif)
 
