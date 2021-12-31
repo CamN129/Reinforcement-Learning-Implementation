@@ -14,3 +14,6 @@ In this environment, the agent is rewarded for balancing the pole on the cart. T
 ![PPO](https://user-images.githubusercontent.com/64811449/147691029-5bdfe734-53e2-43bd-80b4-b610798ed4df.gif)
 
 In this environment, the agent is rewarded for balancing the pendulum. The choice of action is continuous, it is one number, positive or negative, that determines how hard to swing the arm and in what direction.
+
+## DQN
+For this one, I pretty much just followed the [PyTorch Tutorial for DQN](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html) since it's pretty faithful to the [original paper](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf). The only detail I was confused about was the target network. I found a good explanation [for target networks here](https://stackoverflow.com/questions/54237327/why-is-a-target-network-required). Basically, it allows networks to "test the waters" without forgetting things previously learned so quickly.
